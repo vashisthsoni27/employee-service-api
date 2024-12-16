@@ -45,7 +45,7 @@ To run this application locally, you need the following:
 1. Clone the repository from GitHub:
 
    ```bash
-   git clone https://github.com/vashisthsoni27/employee-database-service-api.git
+   git clone https://github.com/vashisthsoni27/employee-service-api.git
     ```
 
 2. Clone the repository from GitHub:
@@ -72,6 +72,22 @@ Once the application is running, you can access the Swagger UI documentation by 
 
 http://localhost:8080/swagger-ui.html
 This will provide you with a graphical interface to interact with the API.
+
+---
+
+## Code Coverage Report
+
+The code coverage report can be found here (target/site/index.html).
+
+Current code coverage report is here: https://github.com/vashisthsoni27/employee-service-api/blob/main/Code_Coverage.png
+
+To generate the report yourself, run:
+
+```bash
+mvn clean test
+```
+
+---
 
 ## API Endpoints
 Each CRUD operation redirects to an endpoint on the external API (http://localhost:8082/api/employees). Below are the details of how the operations are handled:
